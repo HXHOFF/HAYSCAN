@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Mettre l'interface en mode moniteur
+INTERFACE="wlan0"
+sudo ip link set $INTERFACE down
+sudo iw dev $INTERFACE set type monitor
+sudo ip link set $INTERFACE up
+
+# Lancer le scan avec airodump-ng
+sudo airodump-ng $INTERFACE
+
+# Remettre l'interface en mode gestion
+sudo ip link set $INTERFACE down
+sudo iw dev $INTERFACE set type managed
+sudo ip link set $INTERFACE up
