@@ -1,4 +1,4 @@
-### SCAN HAY : SERVEUR DISCORDhttps://discord.gg/wJVYgwZu                               
+### SCAN HAY : SERVEUR discord : https://discord.gg/Yd4UCsEwuY                               
 Pour effectuer des opérations de cybersécurité sous Kali Linux ou Termux, voici des commandes et scripts adaptés à ces environnements. Nous allons couvrir deux aspects : scanner les réseaux Wi-Fi à proximité et héberger une page de phishing.
 
 ### Scanner les Réseaux Wi-Fi à Proximité
